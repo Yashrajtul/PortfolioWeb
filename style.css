@@ -263,3 +263,16 @@ nav .links a.active{
     font-size: 17px;
     line-height: 26px;
 }
+
+.works .right .item:not(:first-child){
+    gap: 14px;
+}
+
+.works .right .item:not(:first-child) a{
+    font-size: 18px;
+}
+
+.works .right .item:not(:first-child) p{
+    font-size: 15px;
+}
+
