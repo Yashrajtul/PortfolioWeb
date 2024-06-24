@@ -314,3 +314,100 @@ footer .socials a{
         opacity: 1;
     }
 }
+
+@media screen and (max-width: 1220px){
+    
+    .about{
+        padding: 60px 30px;
+    }
+
+    .works{
+        flex-direction: column;
+    }
+
+    .works .left,
+    .works .right .item,
+    footer{
+        padding: 40px 30px;
+    }
+
+    .works .right{
+        grid-template-columns: auto auto;
+    }
+
+}
+
+@media screen and (max-width: 992px){
+
+    nav .links{
+        padding: 0 40px;
+    }
+
+    footer > a{
+        font-size: 20px;
+    }
+
+    footer .socials a{
+        font-size: 16px;
+    }
+
+    @media screen and (max-width: 768px) {
+        
+        nav .links a{
+            font-size: 16px;
+        }
+
+        .about{
+            flex-direction: column-reverse;
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .about .right .info{
+            margin-top: 30px;
+        }
+
+        .about .right img{
+            margin-top: 20px;
+        }
+
+        footer a.online{
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .about .left .info h2{
+        font-size: 30px;
+    }
+
+    .about .left .info p,
+    .works .left .works-list .item .work-info p,
+    .works .left .works-list .item > p{
+        font-size: 16px;
+    }
+
+    .about .left .info .buttons button{
+        font-size: 14px;
+    }
+
+    .works .left .works-list{
+        margin-top: 40px;
+    }
+
+    .works .left .works-list .item .work-info h5,
+    .works .right .item a{
+        font-size: 20px;
+    }
+
+    .works .right .item > p,
+    .works .right .item:not(:first-child) a{
+        font-size: 14px;
+    }
+
+    .works .right .item:not(:first-child) p{
+        font-size: 13px;
+    }
+}
